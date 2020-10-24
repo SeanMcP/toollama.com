@@ -1,0 +1,38 @@
+{
+  "education": [
+    {
+      "title": "Popsicle Sticks",
+      "description": "A random student selector",
+      "url": "https://chrome.google.com/webstore/detail/popsicle-sticks-random-st/lnckbgaeagindapiodcmccfokcmnfecm",
+      "type": "extension"
+    },
+    {
+      "title": "Easy Grader",
+      "description": "Generate percent grading tables for every assignment",
+      "url": "https://seanmcp.github.io/easy-grader",
+      "type": "web-app"
+    }
+  ],
+  "life": [
+    {
+      "title": "Contraction Tracker",
+      "description": "A simple contraction tracker for women who have enough to worry about",
+      "url": "https://seanmcp.github.io/contractions",
+      "type": "web-app"
+    },
+    {
+      "title": "Notepad",
+      "description": "A private note taking app",
+      "url": "https://seanmcp.github.io/notepad",
+      "type": "web-app"
+    }
+  ],
+  "fun": [
+    {
+      "title": "Sushi Go! Friend",
+      "description": "A companion app for the Sushi Go! card game",
+      "url": "https://sushi-go-friend.netlify.app",
+      "type": "web-app"
+    }
+  ]
+}

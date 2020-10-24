@@ -1,0 +1,7 @@
+{% if items %}
+<ul class="items-grid">
+{% for item in items %}
+<li><a href={{ item.url }}>{{ item.title }}</a> - {{ item.description }}</li>
+{% endfor %}
+</ul>
+{% endif %}
