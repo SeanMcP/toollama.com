@@ -8,7 +8,7 @@
       href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href={{ "/assets/styles.css" | url }} />
+    <link rel="stylesheet" href=/assets/styles.css />
     <link
       rel="icon"
       href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🦙</text></svg>"
@@ -18,10 +18,17 @@
   <body>
     <header>
       <div class="container preserve-margins">
-        <span role="img" aria-label="{{ emoji.label }}">{{ emoji.symbol }}</span>
-        <h1>{{ title }}</h1>
+        <span role="img" aria-label="waving hand">👋</span>
+        <h1>Welcome!</h1>
       </div>
     </header>
-    {{ content | safe }}
+    
+<main id="main">
+    <div class="container">
+        <p>Thank you for subscribing to the Toollama newsletter! We’re glad to have you onboard.</p>
+<p><a href="../">Back home</a></p>
+
+    </div>
+</main>
   </body>
 </html>

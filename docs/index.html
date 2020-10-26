@@ -8,7 +8,7 @@
       href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="assets/styles.css" />
+    <link rel="stylesheet" href=/assets/styles.css />
     <link
       rel="icon"
       href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🦙</text></svg>"
@@ -17,10 +17,15 @@
   </head>
   <body>
     <header>
-      <span role="img" aria-label="llama">🦙</span>
-      <h1>Toollama.com</h1>
+      <div class="container preserve-margins">
+        <span role="img" aria-label="llama">🦙</span>
+        <h1>Toollama.com</h1>
+      </div>
     </header>
-    <main><section id="Education">
+    
+<main id="main">
+    <div class="container">
+        <section id="Education">
 <h2>
 Education
 <a class="permalink" href="#education">#</a>
@@ -59,6 +64,24 @@ Fun
 </li>
 </ul>
 </section>
+
+    </div>
 </main>
+
+<section id="newsletter" class="bg-gray">
+    <div class="container">
+        <h2>Newsletter</h2>
+        <p>Subscribe to get emails about new tools, features, and updates from Toollama.</p>
+        <form action="https://buttondown.email/api/emails/embed-subscribe/toollama" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/toollama', 'popupwindow')" class="embeddable-buttondown-form">
+            <label for="bd-email">Enter your email</label>
+            <input type="email" name="email" id="bd-email"></input>
+            <input type="hidden" value="1" name="embed"></input>
+            <input type="submit" value="Subscribe"></input>
+            <small style="text-align:right;">
+                <a href="https://buttondown.email" target="_blank">Powered by Buttondown.</a>
+            </small>
+        </form>
+    </div>
+</section>
   </body>
 </html>
