@@ -1,6 +1,5 @@
 ---
 layout: layouts/home.njk
-title: Toollama.com
 emoji:
   label: "llama"
   symbol: 🦙

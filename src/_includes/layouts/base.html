@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Toollama.com</title>
+    <title>{{ meta.title }}</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap"
       rel="stylesheet"
@@ -13,13 +13,14 @@
       rel="icon"
       href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🦙</text></svg>"
     />
-    <meta name="description" content="Free tools for everyone." />
+    <meta name="description" content="{{ meta.description }}" />
   </head>
   <body>
     <header>
       <div class="container preserve-margins">
         <span role="img" aria-label="{{ emoji.label }}">{{ emoji.symbol }}</span>
-        <h1>{{ title }}</h1>
+        <h1>{{ title or meta.title }}</h1>
+        <p><i>{{ meta.description }}</i></p>
       </div>
     </header>
     {{ content | safe }}
