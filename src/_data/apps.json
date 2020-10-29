@@ -11,6 +11,12 @@
       "description": "Generate percent grading tables for every assignment",
       "url": "https://seanmcp.github.io/easy-grader",
       "type": "web-app"
+    },
+    {
+      "title": "Overlays",
+      "description": "Full-screen overlays for your projector",
+      "url": "https://seanmcp.github.io/overlays",
+      "type": "web-app"
     }
   ],
   "life": [
