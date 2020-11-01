@@ -17,6 +17,12 @@
       "description": "Full-screen overlays for your projector",
       "url": "https://seanmcp.github.io/overlays",
       "type": "web-app"
+    },
+    {
+      "title": "Random",
+      "description": "Generate random numbers, colors, animals, and group names",
+      "url": "https://seanmcp.github.io/random",
+      "type": "web-app"
     }
   ],
   "life": [
