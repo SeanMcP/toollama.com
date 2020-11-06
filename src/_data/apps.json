@@ -4,25 +4,31 @@
       "title": "Popsicle Sticks",
       "description": "A random student selector",
       "url": "https://chrome.google.com/webstore/detail/popsicle-sticks-random-st/lnckbgaeagindapiodcmccfokcmnfecm",
+      "emoji": "✌️",
       "type": "extension"
     },
     {
       "title": "Easy Grader",
       "description": "Generate percent grading tables for every assignment",
       "url": "https://seanmcp.github.io/easy-grader",
+      "emoji": "🦓",
       "type": "web-app"
     },
     {
       "title": "Overlays",
       "description": "Full-screen overlays for your projector",
       "url": "https://seanmcp.github.io/overlays",
-      "type": "web-app"
+      "emoji": "🐓",
+      "type": "web-app",
+      "tag": "new"
     },
     {
       "title": "Random",
       "description": "Generate random numbers, colors, animals, and group names",
       "url": "https://seanmcp.github.io/random",
-      "type": "web-app"
+      "emoji": "🐵",
+      "type": "web-app",
+      "tag": "new"
     }
   ],
   "life": [
@@ -30,12 +36,14 @@
       "title": "Contraction Tracker",
       "description": "A simple contraction tracker for women who have enough to worry about",
       "url": "https://seanmcp.github.io/contractions",
+      "emoji": "⚡️",
       "type": "web-app"
     },
     {
       "title": "Notepad",
       "description": "A private note taking app",
       "url": "https://seanmcp.github.io/notepad",
+      "emoji": "📝",
       "type": "web-app"
     }
   ],
@@ -44,6 +52,7 @@
       "title": "Sushi Go! Friend",
       "description": "A companion app for the Sushi Go! card game",
       "url": "https://sushi-go-friend.netlify.app",
+      "emoji": "🍣",
       "type": "web-app"
     }
   ]

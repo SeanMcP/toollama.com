@@ -1,0 +1,16 @@
+[
+    {
+        "url": "/privacy",
+        "label": "Privacy"
+    },
+    {
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLSfOt6KgLjCynrLHEJxanKtR0ER_crny7Ms481RkfD6FTRoawA/viewform?usp=sf_link",
+        "label": "Suggestions",
+        "external": true
+    },
+    {
+        "url": "mailto:support@toollama.com",
+        "label": "Support",
+        "external": true
+    }
+]

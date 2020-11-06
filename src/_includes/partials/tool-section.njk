@@ -1,0 +1,26 @@
+<section id="{{ sectionTitle }}">
+    <h2>
+        {{ sectionTitle }}
+        <a class="permalink" href="#{{sectionTitle | lower }}">#</a>
+    </h2>
+    {% if items -%}
+        <ul class="items-grid">
+            {% for item in items -%}
+                <li>
+                    <a class="item" href="{{ item.url }}">
+                        <span aria-hidden="true" class="item__icon" role="img">{{ item.emoji }}</span>
+                        <div class="item__details">
+                            <div class="item__title">
+                                {{ item.title }}
+                                {% if item.tag -%}
+                                    <span class="tag">{{ item.tag }}</span>
+                                {% endif -%}
+                            </div>
+                            <div class="item__description">{{ item.description }}</div>
+                        </div>
+                    </a>
+                </li>
+            {% endfor -%}
+        </ul>
+    {% endif -%}
+</section>

@@ -1,9 +1,20 @@
----
-layout: layouts/base.html
----
+{% extends 'layouts/base.njk' %}
 
-<main id="main">
-    <div class="container">
-        {{ content | safe }}
-    </div>
-</main>
+{% block content %}
+    <main id="main">
+        <div class="container narrow">
+            <header class="page-header">
+                {% if emoji %}
+                    <span role="img" aria-label="{{ emoji.label }}">
+                        {{ emoji.symbol }}
+                    </span>
+                {% endif %}
+                <h1>{{ title }}</h1>
+                <p>
+                    <i>{{ tagline or meta.description }}</i>
+                </p>
+            </header>
+            {{ content | safe }}
+        </div>
+    </main>
+{% endblock %}

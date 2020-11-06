@@ -1,109 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Toollama.com</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href=/assets/styles.css />
-    <link
-      rel="icon"
-      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🦙</text></svg>"
-    />
-    <meta name="description" content="Education tools for everyone. Free for teachers and ad-free for students." />
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="/assets/styles.css"/>
+    <link rel="stylesheet" href="/assets/tldc.css"/>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🦙</text></svg>"/>
+    <meta name="description" content="Education tools for everyone. Free for teachers and ad-free for students."/>
   </head>
   <body>
-    <header>
-      <div class="container">
-        <span role="img" aria-label="llama">
-          🦙
-        </span>
-        <h1>Toollama.com</h1>
-        <p><i>Education tools for everyone. Free for teachers and ad-free for students.</i></p>
-      </div>
-    </header>
+    <div class="header">
+      <header class="site-header">
+        <div class="container">
+          <a class="home-link" href="/">Toollama.com</a>
+          <nav class="site-nav">
+            <a class="nav-link" href="/privacy" >
+        Privacy
+    </a>
+<a class="nav-link" href="https://docs.google.com/forms/d/e/1FAIpQLSfOt6KgLjCynrLHEJxanKtR0ER_crny7Ms481RkfD6FTRoawA/viewform?usp=sf_link"  target="_blank" rel="noopener" >
+        Suggestions
+    </a>
+<a class="nav-link" href="mailto:support@toollama.com"  target="_blank" rel="noopener" >
+        Support
+    </a>
+
+          </nav>
+        </div>
+      </header>
+      
+    <div class="hero container">
+        <div class="hero__content">
+            <div class="hero__text">Education tools for everyone</div>
+            <div class="hero__tagline">Free for teachers, ad-free for students</div>
+            
+        </div>
+        <div class="hero__graphic">
+            <img src="assets/hero-graphic.png" alt=""/>
+        </div>
+    </div>
+
+    </div>
     
-<main id="main">
-    <div class="container">
-        <section id="Education">
-<h2>
-Education
-<a class="permalink" href="#education">#</a>
-</h2>
-<ul class="items-grid">
-<li>
-<a href="https://chrome.google.com/webstore/detail/popsicle-sticks-random-st/lnckbgaeagindapiodcmccfokcmnfecm">Popsicle Sticks</a> - A random student selector
-</li>
-<li>
-<a href="https://seanmcp.github.io/easy-grader">Easy Grader</a> - Generate percent grading tables for every assignment
-</li>
-<li>
-<a href="https://seanmcp.github.io/overlays">Overlays</a> - Full-screen overlays for your projector
-</li>
-<li>
-<a href="https://seanmcp.github.io/random">Random</a> - Generate random numbers, colors, animals, and group names
-</li>
-</ul>
-</section>
+    <main id="main">
+        <div class="container">
+            <h1 class="visually-hidden">Toollama.com</h1>
+            <section id="Education">
+    <h2>
+        Education
+        <a class="permalink" href="#education">#</a>
+    </h2>
+    <ul class="items-grid">
+            <li>
+                    <a class="item" href="https://chrome.google.com/webstore/detail/popsicle-sticks-random-st/lnckbgaeagindapiodcmccfokcmnfecm">
+                        <span aria-hidden="true" class="item__icon" role="img">✌️</span>
+                        <div class="item__details">
+                            <div class="item__title">
+                                Popsicle Sticks
+                                </div>
+                            <div class="item__description">A random student selector</div>
+                        </div>
+                    </a>
+                </li>
+            <li>
+                    <a class="item" href="https://seanmcp.github.io/easy-grader">
+                        <span aria-hidden="true" class="item__icon" role="img">🦓</span>
+                        <div class="item__details">
+                            <div class="item__title">
+                                Easy Grader
+                                </div>
+                            <div class="item__description">Generate percent grading tables for every assignment</div>
+                        </div>
+                    </a>
+                </li>
+            <li>
+                    <a class="item" href="https://seanmcp.github.io/overlays">
+                        <span aria-hidden="true" class="item__icon" role="img">🐓</span>
+                        <div class="item__details">
+                            <div class="item__title">
+                                Overlays
+                                <span class="tag">new</span>
+                                </div>
+                            <div class="item__description">Full-screen overlays for your projector</div>
+                        </div>
+                    </a>
+                </li>
+            <li>
+                    <a class="item" href="https://seanmcp.github.io/random">
+                        <span aria-hidden="true" class="item__icon" role="img">🐵</span>
+                        <div class="item__details">
+                            <div class="item__title">
+                                Random
+                                <span class="tag">new</span>
+                                </div>
+                            <div class="item__description">Generate random numbers, colors, animals, and group names</div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+    </section>
 <section id="Life">
-<h2>
-Life
-<a class="permalink" href="#life">#</a>
-</h2>
-<ul class="items-grid">
-<li>
-<a href="https://seanmcp.github.io/contractions">Contraction Tracker</a> - A simple contraction tracker for women who have enough to worry about
-</li>
-<li>
-<a href="https://seanmcp.github.io/notepad">Notepad</a> - A private note taking app
-</li>
-</ul>
-</section>
+    <h2>
+        Life
+        <a class="permalink" href="#life">#</a>
+    </h2>
+    <ul class="items-grid">
+            <li>
+                    <a class="item" href="https://seanmcp.github.io/contractions">
+                        <span aria-hidden="true" class="item__icon" role="img">⚡️</span>
+                        <div class="item__details">
+                            <div class="item__title">
+                                Contraction Tracker
+                                </div>
+                            <div class="item__description">A simple contraction tracker for women who have enough to worry about</div>
+                        </div>
+                    </a>
+                </li>
+            <li>
+                    <a class="item" href="https://seanmcp.github.io/notepad">
+                        <span aria-hidden="true" class="item__icon" role="img">📝</span>
+                        <div class="item__details">
+                            <div class="item__title">
+                                Notepad
+                                </div>
+                            <div class="item__description">A private note taking app</div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+    </section>
 <section id="Fun">
-<h2>
-Fun
-<a class="permalink" href="#fun">#</a>
-</h2>
-<ul class="items-grid">
-<li>
-<a href="https://sushi-go-friend.netlify.app">Sushi Go! Friend</a> - A companion app for the Sushi Go! card game
-</li>
-</ul>
-</section>
+    <h2>
+        Fun
+        <a class="permalink" href="#fun">#</a>
+    </h2>
+    <ul class="items-grid">
+            <li>
+                    <a class="item" href="https://sushi-go-friend.netlify.app">
+                        <span aria-hidden="true" class="item__icon" role="img">🍣</span>
+                        <div class="item__details">
+                            <div class="item__title">
+                                Sushi Go! Friend
+                                </div>
+                            <div class="item__description">A companion app for the Sushi Go! card game</div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+    </section>
 
-    </div>
-</main>
+        </div>
+    </main>
 
-<section id="suggestion">
-    <div class="container text-center">
-        <a class="button lg" href="https://docs.google.com/forms/d/e/1FAIpQLSfOt6KgLjCynrLHEJxanKtR0ER_crny7Ms481RkfD6FTRoawA/viewform?usp=sf_link" target="_blank" rel="noreferer noopener">
-            Submit an app idea
-        </a>
-    </div>
-</section>
-
-<section id="newsletter">
-    <div class="container bg-gray">
+    <aside id="newsletter">
+    <div class="container narrow">
         <h2>Newsletter</h2>
         <p>Subscribe to get emails about new tools, features, and updates from Toollama.</p>
         <form action="https://buttondown.email/api/emails/embed-subscribe/toollama" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/toollama', 'popupwindow')" class="embeddable-buttondown-form">
-            <label for="bd-email">Enter your email</label>
-            <input type="email" name="email" id="bd-email"></input>
+            <label for="bd-email"><b>Enter your email</b></label>
+            <input class="input" type="email" name="email" id="bd-email"></input>
             <input type="hidden" value="1" name="embed"></input>
-            <input type="submit" value="Subscribe"></input>
+            <input class="button outline" type="submit" value="Subscribe"></input>
             <small style="text-align:right;">
-                <a href="https://buttondown.email" target="_blank">Powered by Buttondown.</a>
+                <a href="https://buttondown.email" target="_blank">Powered by Buttondown</a>
             </small>
         </form>
     </div>
-</section>
+</aside>
+
     <footer class="site-footer">
-      <div class="container" style="text-align: center">
-        Copyright <a href="/">Toollama.com</a> |
-        <a href="privacy/">Privacy</a>
+      <div class="container">
+        <span>Copyright Toollama.com</span>
+        <a class="nav-link" href="/privacy" >
+        Privacy
+    </a>
+<a class="nav-link" href="https://docs.google.com/forms/d/e/1FAIpQLSfOt6KgLjCynrLHEJxanKtR0ER_crny7Ms481RkfD6FTRoawA/viewform?usp=sf_link"  target="_blank" rel="noopener" >
+        Suggestions
+    </a>
+<a class="nav-link" href="mailto:support@toollama.com"  target="_blank" rel="noopener" >
+        Support
+    </a>
+
       </div>
     </footer>
   </body>

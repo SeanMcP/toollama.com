@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>{{ meta.title }}</title>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="{{ '/assets/styles.css' | url }}"/>
+    <link rel="stylesheet" href="{{ '/assets/tldc.css' | url }}"/>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🦙</text></svg>"/>
+    <meta name="description" content="{{ meta.description }}"/>
+  </head>
+  <body>
+    <div class="header">
+      <header class="site-header">
+        <div class="container">
+          <a class="home-link" href="{{ '/' | url }}">Toollama.com</a>
+          <nav class="site-nav">
+            {% include "partials/navigation.njk" %}
+          </nav>
+        </div>
+      </header>
+      {% block hero %}{% endblock %}
+    </div>
+    {% block content %}{% endblock %}
+    <footer class="site-footer">
+      <div class="container">
+        <span>Copyright Toollama.com</span>
+        {% include 'partials/navigation.njk' %}
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,33 +1,25 @@
----
-layout: layouts/base.html
----
+{% extends 'layouts/base.njk' %}
 
-<main id="main">
-    <div class="container">
-        {{ content | safe }}
+{% block hero %}
+    <div class="hero container">
+        <div class="hero__content">
+            <div class="hero__text">Education tools for everyone</div>
+            <div class="hero__tagline">Free for teachers, ad-free for students</div>
+            {# <button class="button cta">Browse</button> #}
+        </div>
+        <div class="hero__graphic">
+            <img src="{{ 'assets/hero-graphic.png' | url }}" alt=""/>
+        </div>
     </div>
-</main>
+{% endblock %}
 
-<section id="suggestion">
-    <div class="container text-center">
-        <a class="button lg" href="https://docs.google.com/forms/d/e/1FAIpQLSfOt6KgLjCynrLHEJxanKtR0ER_crny7Ms481RkfD6FTRoawA/viewform?usp=sf_link" target="_blank" rel="noreferer noopener">
-            Submit an app idea
-        </a>
-    </div>
-</section>
+{% block content %}
+    <main id="main">
+        <div class="container">
+            <h1 class="visually-hidden">Toollama.com</h1>
+            {{ content | safe }}
+        </div>
+    </main>
 
-<section id="newsletter">
-    <div class="container bg-gray">
-        <h2>Newsletter</h2>
-        <p>Subscribe to get emails about new tools, features, and updates from Toollama.</p>
-        <form action="https://buttondown.email/api/emails/embed-subscribe/toollama" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/toollama', 'popupwindow')" class="embeddable-buttondown-form">
-            <label for="bd-email">Enter your email</label>
-            <input type="email" name="email" id="bd-email"></input>
-            <input type="hidden" value="1" name="embed"></input>
-            <input type="submit" value="Subscribe"></input>
-            <small style="text-align:right;">
-                <a href="https://buttondown.email" target="_blank">Powered by Buttondown.</a>
-            </small>
-        </form>
-    </div>
-</section>
+    {% include "partials/newsletter.html" %}
+{% endblock %}
