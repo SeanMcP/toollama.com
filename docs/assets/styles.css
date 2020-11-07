@@ -110,6 +110,18 @@ h3,
   .hero.container {
     display: block;
     height: initial;
+    text-align: center;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+  }
+
+  .hero__text {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .hero__tagline {
+    font-size: 1rem;
   }
 
   .hero__graphic {
