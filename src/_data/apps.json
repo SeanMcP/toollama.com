@@ -17,7 +17,7 @@
     {
       "title": "Overlays",
       "description": "Full-screen overlays for your projector",
-      "url": "https://seanmcp.github.io/overlays",
+      "url": "https://overlays.toollama.com/",
       "emoji": "🐓",
       "type": "web-app",
       "tag": "new"
@@ -27,6 +27,16 @@
       "description": "Generate random numbers, colors, animals, and group names",
       "url": "https://seanmcp.github.io/random",
       "emoji": "🐵",
+      "type": "web-app",
+      "tag": "new"
+    }
+  ],
+  "games": [
+    {
+      "title": "Mouse Practice",
+      "description": "A game to practice moving and clicking the mouse or trackpad",
+      "url": "https://mouse-practice.toollama.com",
+      "emoji": "🐭",
       "type": "web-app",
       "tag": "new"
     }
