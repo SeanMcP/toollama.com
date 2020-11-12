@@ -213,7 +213,7 @@ h6:hover .permalink,
 }
 
 .item {
-  border: 2px solid hsla(0, 0%, 0%, 16%);
+  border: var(--border-width) solid var(--faint);
   border-radius: var(--border-radius);
   display: grid;
   grid-template-columns: max-content auto;
@@ -223,7 +223,7 @@ h6:hover .permalink,
 }
 
 .item:hover {
-  box-shadow: 0 0.5rem 1rem hsla(0, 0%, 0%, 16%), 0 4px 4px hsla(0, 0%, 0%, 24%);
+  box-shadow: 0 0.5rem 1rem var(--faint), 0 4px 4px hsla(0, 0%, 0%, 24%);
   border-color: var(--purple);
   transform: scale(1.025);
 }

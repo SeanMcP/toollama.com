@@ -67,7 +67,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-ol, p, ul {
+ol,
+p,
+ul {
   line-height: 140%;
 }
 
