@@ -29,6 +29,14 @@
       "emoji": "🐵",
       "type": "web-app",
       "tag": "new"
+    },
+    {
+      "title": "Rotations",
+      "description": "A group rotations clock for classrooms",
+      "url": "https://rotations.toollama.com",
+      "emoji": "🦋",
+      "type": "web-app",
+      "tag": "new"
     }
   ],
   "games": [
