@@ -10,7 +10,7 @@
     {
       "title": "Easy Grader",
       "description": "Generate percent grading tables for every assignment",
-      "url": "https://seanmcp.github.io/easy-grader",
+      "url": "https://easy-grader.toollama.com",
       "emoji": "🦓",
       "type": "web-app"
     },
@@ -25,7 +25,7 @@
     {
       "title": "Random",
       "description": "Generate random numbers, colors, animals, and group names",
-      "url": "https://seanmcp.github.io/random",
+      "url": "https://random.toollama.com",
       "emoji": "🐵",
       "type": "web-app",
       "tag": "new"
@@ -53,14 +53,14 @@
     {
       "title": "Contraction Tracker",
       "description": "A simple contraction tracker for women who have enough to worry about",
-      "url": "https://seanmcp.github.io/contractions",
+      "url": "https://contractions.toollama.com",
       "emoji": "⚡️",
       "type": "web-app"
     },
     {
       "title": "Notepad",
       "description": "A private note taking app",
-      "url": "https://seanmcp.github.io/notepad",
+      "url": "https://notepad.toollama.com",
       "emoji": "📝",
       "type": "web-app"
     }
