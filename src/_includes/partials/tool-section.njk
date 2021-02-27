@@ -12,11 +12,14 @@
                         <div class="item__details">
                             <div class="item__title">
                                 {{ item.title }}
+                            </div>
+                            <div class="item__description">{{ item.description }}</div>
+                            <div class="item__info">
+                                <span class="tag">{{ item.type }}</span>
                                 {% if item.tag -%}
                                     <span class="tag">{{ item.tag }}</span>
                                 {% endif -%}
                             </div>
-                            <div class="item__description">{{ item.description }}</div>
                         </div>
                     </a>
                 </li>

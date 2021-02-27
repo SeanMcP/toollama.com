@@ -2,41 +2,38 @@
   "education": [
     {
       "title": "Popsicle Sticks",
-      "description": "A random student selector",
+      "description": "Randomly select a student in your class from any tab",
       "url": "https://chrome.google.com/webstore/detail/popsicle-sticks-random-st/lnckbgaeagindapiodcmccfokcmnfecm",
       "emoji": "✌️",
-      "type": "extension"
+      "type": "Chrome Extension"
     },
     {
       "title": "Easy Grader",
       "description": "Generate percent grading tables for every assignment",
       "url": "https://easy-grader.toollama.com",
       "emoji": "🦓",
-      "type": "web-app"
+      "type": "Web App"
     },
     {
       "title": "Overlays",
       "description": "Full-screen overlays for your projector",
       "url": "https://overlays.toollama.com/",
       "emoji": "🐓",
-      "type": "web-app",
-      "tag": "new"
+      "type": "Web App"
     },
     {
       "title": "Random",
       "description": "Generate random numbers, colors, animals, and group names",
       "url": "https://random.toollama.com",
       "emoji": "🐵",
-      "type": "web-app",
-      "tag": "new"
+      "type": "Web App"
     },
     {
       "title": "Rotations",
       "description": "A group rotations clock for classrooms",
       "url": "https://rotations.toollama.com",
       "emoji": "🦋",
-      "type": "web-app",
-      "tag": "new"
+      "type": "Web App"
     }
   ],
   "games": [
@@ -45,8 +42,7 @@
       "description": "A game to practice moving and clicking the mouse or trackpad",
       "url": "https://mouse-practice.toollama.com",
       "emoji": "🐭",
-      "type": "web-app",
-      "tag": "new"
+      "type": "Web App"
     }
   ],
   "life": [
@@ -55,14 +51,14 @@
       "description": "A simple contraction tracker for women who have enough to worry about",
       "url": "https://contractions.toollama.com",
       "emoji": "⚡️",
-      "type": "web-app"
+      "type": "Web App"
     },
     {
       "title": "Notepad",
       "description": "A private note taking app",
       "url": "https://notepad.toollama.com",
       "emoji": "📝",
-      "type": "web-app"
+      "type": "Web App"
     }
   ],
   "fun": [
@@ -71,7 +67,7 @@
       "description": "A companion app for the Sushi Go! card game",
       "url": "https://sushi-go.toollama.com",
       "emoji": "🍣",
-      "type": "web-app"
+      "type": "Web App"
     }
   ]
 }
