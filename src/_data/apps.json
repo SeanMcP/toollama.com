@@ -38,6 +38,13 @@
   ],
   "games": [
     {
+      "title": "Keyboard Practice",
+      "description": "A game to practice using the keyboard",
+      "url": "https://keyboard-practice.toollama.com",
+      "emoji": "⌨️",
+      "type": "Web App"
+    },
+    {
       "title": "Mouse Practice",
       "description": "A game to practice moving and clicking the mouse or trackpad",
       "url": "https://mouse-practice.toollama.com",
