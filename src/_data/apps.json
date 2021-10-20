@@ -50,6 +50,13 @@
       "url": "https://mouse-practice.toollama.com",
       "emoji": "🐭",
       "type": "Web App"
+    },
+    {
+      "title": "Turtle Guide",
+      "description": "A game to practice using the arrow keys",
+      "url": "https://turtle.toollama.com",
+      "emoji": "🐢",
+      "type": "Web App"
     }
   ],
   "life": [
