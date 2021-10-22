@@ -53,9 +53,16 @@
     },
     {
       "title": "Turtle Guide",
-      "description": "A game to practice using the arrow keys",
-      "url": "https://turtle.toollama.com",
+      "description": "A game to help young children practice using the arrow keys",
+      "url": "https://turtle-guide.toollama.com",
       "emoji": "🐢",
+      "type": "Web App"
+    },
+    {
+      "title": "Parrot Paint",
+      "description": "A painting activity to help young children practice using the keyboard",
+      "url": "https://parrot-paint.toollama.com",
+      "emoji": "🦜",
       "type": "Web App"
     }
   ],
