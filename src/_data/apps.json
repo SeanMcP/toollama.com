@@ -64,6 +64,13 @@
       "url": "https://paint-pig.toollama.com",
       "emoji": "🐷",
       "type": "Web App"
+    },
+    {
+      "title": "Spotlight",
+      "description": "A game to help young children practice moving and clicking with the mouse or trackpad",
+      "url": "https://spotlight.toollama.com",
+      "emoji": "🔦",
+      "type": "Web App"
     }
   ],
   "life": [
