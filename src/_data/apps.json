@@ -71,6 +71,13 @@
       "url": "https://spotlight.toollama.com",
       "emoji": "🔦",
       "type": "Web App"
+    },
+    {
+      "title": "Memory",
+      "description": "A little game to help children learn",
+      "url": "https://memory-game.toollama.com",
+      "emoji": "🧠",
+      "type": "Web App"
     }
   ],
   "life": [
