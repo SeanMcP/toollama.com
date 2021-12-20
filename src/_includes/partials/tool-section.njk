@@ -1,7 +1,8 @@
-<section id="{{ sectionTitle }}">
+{% set sectionID = sectionTitle | lower %}
+<section id="{{ sectionID }}">
     <h2>
         {{ sectionTitle }}
-        <a class="permalink" href="#{{sectionTitle | lower }}">#</a>
+        <a class="permalink" href="#{{ sectionID }}">#</a>
     </h2>
     {% if items -%}
         <ul class="items-grid">
