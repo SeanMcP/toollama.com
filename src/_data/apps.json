@@ -78,6 +78,13 @@
       "url": "https://memory-game.toollama.com",
       "emoji": "🧠",
       "type": "Web App"
+    },
+    {
+      "title": "Animal Soundboard",
+      "description": "A simple soundboard of animal sounds",
+      "url": "https://animal-soundboard.toollama.com",
+      "emoji": "📢",
+      "type": "Web App"
     }
   ],
   "life": [
